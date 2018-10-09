@@ -1,0 +1,40 @@
+{
+  "name": "mayberainmaybeshine",
+  "version": "2.0.4",
+  "description": "My take of a simplistic 5 day Weather forecast app built on the fantastic OpenWeather API, React.js, Bulma, CSS, JavaScript and HTML5.  Type in your city to find the weather.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "author": "Ryan Hunter | GitHub handle: SystemsVanguard",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bulma": "^0.7.1",
+    "prop-types": "^15.5.10",
+    "query-string": "^5.0.0",
+    "pm2": "^3.2.1",
+    "react-fontawesome": "^1.6.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router-dom": "^4.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "nodemon": "^1.18.3",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
